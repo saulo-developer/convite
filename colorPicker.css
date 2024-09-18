@@ -1,0 +1,14 @@
+.palette {
+    display: flex;
+    gap: 10px; /* Espaço entre os círculos */
+}
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.circle.red { background-color: red; }
+.circle.green { background-color: green; }
+.circle.blue { background-color: blue; }
+.circle.yellow { background-color: yellow; }
+.circle.purple { background-color: purple; }
