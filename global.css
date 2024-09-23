@@ -54,10 +54,16 @@
 --text-xs: 12/auto var(--font-family);
 
 
+--font-family: "Baloo 2";
+--text-md: 28px/auto bold (--font-family);
+--text-sm: 18px/auto bold (--font-family);
+
+
+
    }
 
    body {
-    font-family: "Open Sans";
+   
     overflow: hidden;
    }
 

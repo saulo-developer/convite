@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Convite</title>
     <link rel="stylesheet" href="./index.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="app">
@@ -28,14 +30,29 @@
     </h1>
 
     <form action="" method="POST">
-        <label for="name">Sobre o evento</label>
-        <label for="name">Título</label>
-        <input type="text" id="name" placeholder="Nome do evento" required>
-        <label for="date">beginning</label>
+        <label for="name" class="main-two">Sobre o evento</label>
+        <span>
+          <img src = "./assets/icons/calendar.svg" alt="Calendar"/>
+        </span>
+        <br></br>
+        <label for="name" class="name">Título</label>
+        <br></br>
+        <input type="text" id="name" class="name-input" placeholder="Nome do evento" required>
+       
+         
+        <label for="date" class="date">Início</label>
+        
+       
         <input type="date" id="beginning" placeholder="Nome do evento" required>
-        <label for="date">End</label>
-        <input type="date" id="End" placeholder="Nome do evento" required>
-        <label for="type">Type</label>
+        
+        <label for="date" class="end">Fim</label>
+        
+        <input type="date" id="End" placeholder="Nome do evento" required></span>
+
+        <br></br>
+        
+        <label for="type" class="type">Tipo</label>
+        <br></br>
         <div class="button-group">
             <button class="btn selected">
                 <img src="path/to/presencial-icon.svg" alt="Presencial Icon">
@@ -45,9 +62,16 @@
                 <img src="path/to/online-icon.svg" alt="Online Icon">
                 Online
             </button>
+           <span>
+          <label for="link">Local</label>
+        <input type="link" id="link" placeholder="Link do endereço" required>
+      </span>
+      
         </div>
+        <br></br>
         <div class="form-group">
             <label for="description">Descrição</label>
+            <br></br>
             <textarea id="description" name="description" placeholder="Escreva sobre os detalhes do evento"></textarea>
         </div>
          </form>
