@@ -1,0 +1,41 @@
+
+.app {
+
+    display: grid;
+    grid-template-columns: 51.25% 48.75%;
+    height: 100vh;
+    overflow: hidden;
+   
+
+
+}
+
+.main-container {
+    overflow: auto;
+    padding: 4rem;
+    
+
+
+
+    & .main-container {
+
+        max-width: 33rem;
+        margin-left: auto;
+    
+}
+}
+
+
+.aside-container {
+    background-image: url(./assets/images/cupcake.png);
+    background-size: 20rem;
+    background-repeat: no-repeat;
+    padding: 4rem;
+
+   
+
+  & .aside-container {
+
+        max-width: 31rem;
+}  
+}
