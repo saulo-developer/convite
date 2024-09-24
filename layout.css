@@ -1,11 +1,17 @@
 
+html, body {
+    overflow: hidden; /* Esconde todas as barras de rolagem */
+}
+
 .app {
 
     display: grid;
     grid-template-columns: 51.25% 48.75%;
     height: 100vh;
-    overflow: hidden;
-   
+    margin: 0;
+    padding: 0;
+
+    
 
 
 }
@@ -16,15 +22,14 @@
     background-repeat: no-repeat;
     padding: 4rem;
 
-   
-
  
 }
 
 .main {
-    overflow: auto;
+    overflow-y: auto;
     padding: 4rem;
-
+    
+    
 
     & h1 {
 
@@ -44,6 +49,8 @@ font-size: 17px;
 font-weight: bolder;
 
 }
+
+
 
 span > img {
     float: left;
@@ -74,8 +81,6 @@ flex-grow: 0;
 
     }
 
-
-
     .name-input  {
    /* Text */
 
@@ -103,4 +108,37 @@ flex-grow: 0;
 
     }
 
+body {
+    background-color: #1e1e1e;
+    color: #b0b0b0;
+    font-family: Arial, sans-serif;
+    
+}
 
+.date-time-container {
+    
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+label {
+    font-size: 14px;
+}
+
+input {
+    background-color: #2d2d2d;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 10px;
+    color: #b0b0b0;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #888;
+}
+
+
+.type-input

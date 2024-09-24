@@ -62,9 +62,11 @@
 
    }
 
-   body {
+  
+     
+   html, body {
+      overflow: hidden; /* Esconde todas as barras de rolagem */
+  }
    
-    overflow: hidden;
-   }
 
    
