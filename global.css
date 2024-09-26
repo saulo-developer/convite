@@ -64,7 +64,7 @@
 
   
      
-   html, body {
+    body {
       overflow: hidden; /* Esconde todas as barras de rolagem */
   }
    

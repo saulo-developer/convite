@@ -10,20 +10,53 @@ html, body {
     height: 100vh;
     margin: 0;
     padding: 0;
-
-    
+   margin-top: 5rem;
+ 
 
 
 }
 
 .aside-container {
     background-image: url(./assets/images/cupcake.png);
-    background-size: 20rem;
+    background-size: contain;
+    height: 87vh;
     background-repeat: no-repeat;
-    padding: 4rem;
+    background-position: top center; /* Move a imagem para o topo e centraliza horizontalmente */
 
- 
+
+
+    & h1 {
+
+       /* Festivite */
+
+
+
+font-family: 'Leckerli One';
+font-size: 40px;
+margin-left: 17rem;
+padding-bottom: -19rem;
+
+
+
+color: #FF598B;
+
+    }
+   & img {
+    margin-bottom: -2rem;
+    margin-left: 17rem;
+    
+    
+   }
+
+   & h2 {
+    margin-left: 17rem;
+    padding-bottom: -19rem;
+   }
 }
+
+    
+
+
 
 .main {
     overflow-y: auto;
@@ -35,11 +68,15 @@ html, body {
 
        /* Crie seu convite */
 
+       
+       
+margin-top: 4rem;
 font-family: "Baloo 2";
 font-size: 40px;
 
+
     }
-    
+  
 }
 
 .main-two {
@@ -141,4 +178,3 @@ input:focus {
 }
 
 
-.type-input
