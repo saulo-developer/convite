@@ -19,9 +19,10 @@ html, body {
 .aside-container {
     background-image: url(./assets/images/cupcake.png);
     background-size: contain;
-    height: 87vh;
+    height: 97vh;
     background-repeat: no-repeat;
     background-position: top center; /* Move a imagem para o topo e centraliza horizontalmente */
+    margin-left: 245px;
 
 
 
@@ -33,7 +34,7 @@ html, body {
 
 font-family: 'Leckerli One';
 font-size: 40px;
-margin-left: 17rem;
+margin-left: 150px;
 padding-bottom: -19rem;
 
 
@@ -42,14 +43,14 @@ color: #FF598B;
 
     }
    & img {
-    margin-bottom: -2rem;
-    margin-left: 17rem;
+    margin-bottom: -5px;
+    margin-left: 150px;
     
     
    }
 
    & h2 {
-    margin-left: 17rem;
+    margin-left: 150px;
     padding-bottom: -19rem;
    }
 }
