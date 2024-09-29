@@ -23,6 +23,7 @@ html, body {
     background-repeat: no-repeat;
     background-position: top center; /* Move a imagem para o topo e centraliza horizontalmente */
     margin-left: 245px;
+    background-color: #2d2d2d;
 
 
 
@@ -182,19 +183,21 @@ input:focus {
 
 .button-group {
 
-   
-    
-
-    .btn-one:hover {
-        background-color: #807b7b; /* Cor de fundo ao passar o mouse */
-    }
-   
-    .btn-two:hover {
-        background-color: #807b7b; /* Cor de fundo ao passar o mouse */
+    & img [src*="svg"] {
+        width: 50px;
+        height: 100px;
+        object-fit: cover; /* Isso recorta a imagem para caber no container sem distorção */
     }
 
+    & .btn-one:hover {
+        background-color: #807b7b; /* Cor de fundo ao passar o mouse */
+    }
 
+    & .btn-two:hover {
+        background-color: #807b7b; /* Cor de fundo ao passar o mouse */
+    }
 
+}
 
 
 .btn-one{
@@ -218,15 +221,6 @@ input:focus {
 
 }
 
-& img[src="src"] {
-
-    margin-right: 8px; /* Ajuste o espaçamento entre o ícone e o texto */
-    width: 20px;
-    height: 20px;
-    vertical-align: middle; /* Garante que o ícone esteja alinhado ao meio do texto */
-}
-
-}
 
 
 .local {
