@@ -181,45 +181,62 @@ input:focus {
     border-color: #888;
 }
 
-.button-group {
 
-    & img [src*="svg"] {
-        width: 50px;
-        height: 100px;
-        object-fit: cover; /* Isso recorta a imagem para caber no container sem distorção */
-    }
 
-    & .btn-one:hover {
-        background-color: #807b7b; /* Cor de fundo ao passar o mouse */
-    }
+.container {
+    display: flex; /* Utiliza flexbox para alinhar os itens */
+    align-items: center; /* Alinha verticalmente no centro */
+    
+    color: rgb(14, 13, 13); /* Cor do texto */
+    border: none; /* Remove bordas padrão */
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    padding: 10px 15px; /* Espaçamento interno do botão */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    gap: 10px;
+    
+}
 
-    & .btn-two:hover {
-        background-color: #807b7b; /* Cor de fundo ao passar o mouse */
-    }
+/* Estilos para o ícone */
+.icone {
+    width: 20px;  /* Largura do ícone */
+    height: 20px; /* Altura do ícone */
+    margin-right: 8px; /* Espaço entre o ícone e o texto */
+}
 
+/* Estilos para o texto */
+.texto {
+    font-size: 16px; /* Tamanho da fonte do texto */
 }
 
 
-.btn-one{
+
+.botao{
+    margin-left: -20px;
     width: 157px;
     height: 50px;
     border-radius: 10px;
     cursor: pointer;
+    display: flex; /* Utiliza flexbox para alinhar os itens */
+    align-items: center; /* Alinha verticalmente no centro */
+    background-color: #eef1f3; /* Cor de fundo do botão */
+    color: rgb(15, 15, 15); /* Cor do texto */
+    border: none; /* Remove bordas padrão */
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    padding: 10px 15px; /* Espaçamento interno do botão */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    gap: 10px;
     
+    
+
     
 }
 
 
-    
-.btn-two {
 
-    width: 157px;
-    height: 50px;
-    border-radius: 10px;
-    cursor: pointer;
-    
-
+.botao:hover {
+    background-color: #807b7b; /* Cor de fundo ao passar o mouse */
 }
+
 
 
 
