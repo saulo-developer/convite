@@ -1,0 +1,67 @@
+.circle-button1 {
+    width: 40px;               /* Define o tamanho do botão */
+    height: 40px;              /* Define o tamanho do botão */
+    background-color: #4c9ee3; /* Cor de preenchimento azul */
+    border: 5px solid #2c2c2c; /* Borda escura */
+    border-radius: 50%;        /* Faz o botão ficar redondo */
+    cursor: pointer;         /* Mostra o cursor de "mãozinha" ao passar o mouse */
+    outline: none;     }
+
+
+    .circle-button2 {
+
+        width: 40px;               /* Define o tamanho do botão */
+        height: 40px;              /* Define o tamanho do botão */
+        background-color: #e3904c; /* Cor de preenchimento azul */
+        border: 5px solid #2c2c2c; /* Borda escura */
+        border-radius: 50%;        /* Faz o botão ficar redondo */
+        cursor: pointer;         /* Mostra o cursor de "mãozinha" ao passar o mouse */
+        outline: none;   
+    }
+
+
+    .circle-button3 {
+
+        width: 40px;               /* Define o tamanho do botão */
+        height: 40px;              /* Define o tamanho do botão */
+        background-color: #4ce397; /* Cor de preenchimento azul */
+        border: 5px solid #2c2c2c; /* Borda escura */
+        border-radius: 50%;        /* Faz o botão ficar redondo */
+        cursor: pointer;         /* Mostra o cursor de "mãozinha" ao passar o mouse */
+        outline: none;   
+    }
+
+
+    .circle-button4 {
+        width: 40px;               /* Define o tamanho do botão */
+        height: 40px;              /* Define o tamanho do botão */
+        background-color: #e34cca; /* Cor de preenchimento azul */
+        border: 5px solid #2c2c2c; /* Borda escura */
+        border-radius: 50%;        /* Faz o botão ficar redondo */
+        cursor: pointer;         /* Mostra o cursor de "mãozinha" ao passar o mouse */
+        outline: none;   
+    }
+
+
+    .circle-button5 {
+
+        width: 40px;               /* Define o tamanho do botão */
+        height: 40px;              /* Define o tamanho do botão */
+        background-color: #e34c54; /* Cor de preenchimento azul */
+        border: 5px solid #2c2c2c; /* Borda escura */
+        border-radius: 50%;        /* Faz o botão ficar redondo */
+        cursor: pointer;         /* Mostra o cursor de "mãozinha" ao passar o mouse */
+        outline: none;   
+    }
+
+
+    .circle-button6 {
+
+        width: 40px;               /* Define o tamanho do botão */
+        height: 40px;              /* Define o tamanho do botão */
+        background-color: #4cdee3; /* Cor de preenchimento azul */
+        border: 5px solid #2c2c2c; /* Borda escura */
+        border-radius: 50%;        /* Faz o botão ficar redondo */
+        cursor: pointer;         /* Mostra o cursor de "mãozinha" ao passar o mouse */
+        outline: none;   
+    }

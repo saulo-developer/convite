@@ -22,8 +22,8 @@ html, body {
     height: 97vh;
     background-repeat: no-repeat;
     background-position: top center; /* Move a imagem para o topo e centraliza horizontalmente */
-    margin-left: 245px;
-    background-color: #2d2d2d;
+    margin-left: 57px;
+    border-color: #080808;
 
 
 
@@ -35,8 +35,9 @@ html, body {
 
 font-family: 'Leckerli One';
 font-size: 40px;
-margin-left: 120px;
-padding-bottom: -19rem;
+margin-left: 177px;
+margin-bottom: ;
+
 
 
 
@@ -45,16 +46,17 @@ color: #FF598B;
     }
    & img {
     margin-bottom: -5px;
-    margin-left: 120px;
+    margin-left: 177px;
     margin-top: -2rem;
     
     
    }
 
    & h2 {
-    margin-left: 120px;
+    margin-left: 177px;
     padding-bottom: -19rem;
     font-size: 17px;
+    color: #C8CDD0;
    }
 }
 
@@ -96,6 +98,9 @@ font-weight: bolder;
 span > img {
     float: left;
     margin-right: 1rem;
+
+
+  
 }
 
  .name { 
@@ -151,7 +156,7 @@ flex-grow: 0;
 
 body {
     background-color: #1e1e1e;
-    color: #b0b0b0;
+    color: #141313;
     font-family: Arial, sans-serif;
     
 }
@@ -168,17 +173,17 @@ label {
 }
 
 input {
-    background-color: #2d2d2d;
-    border: 1px solid #444;
+    background-color: #161515;
+    border: 1px solid #0c0c0c;
     border-radius: 8px;
     padding: 10px;
-    color: #b0b0b0;
+    color: #111111;
     font-size: 16px;
 }
 
 input:focus {
     outline: none;
-    border-color: #888;
+    border-color: #1f1e1e;
 }
 
 
@@ -206,6 +211,12 @@ input:focus {
 /* Estilos para o texto */
 .texto {
     font-size: 16px; /* Tamanho da fonte do texto */
+    color: #C8CDD0;
+}
+
+.type{
+
+    color: #C8CDD0;
 }
 
 
@@ -218,8 +229,8 @@ input:focus {
     cursor: pointer;
     display: flex; /* Utiliza flexbox para alinhar os itens */
     align-items: center; /* Alinha verticalmente no centro */
-    background-color: #eef1f3; /* Cor de fundo do botão */
-    color: rgb(15, 15, 15); /* Cor do texto */
+    background-color: #202020; /* Cor de fundo do botão */
+    color: rgb(253, 249, 249); /* Cor do texto */
     border: none; /* Remove bordas padrão */
     border-radius: 5px; /* Arredonda os cantos do botão */
     padding: 10px 15px; /* Espaçamento interno do botão */
@@ -234,7 +245,7 @@ input:focus {
 
 
 .botao:hover {
-    background-color: #807b7b; /* Cor de fundo ao passar o mouse */
+    background-color: #141414; /* Cor de fundo ao passar o mouse */
 }
 
 
@@ -246,6 +257,7 @@ input:focus {
     width: 300px;
     height: 20px;
     border-radius: 10px;
+    color: #C8CDD0;
 }
 
 .description {
@@ -258,3 +270,47 @@ input:focus {
     padding: 20px 20px;
     
 }
+
+.main-two {
+    color: #C8CDD0;
+}
+
+.main {
+    color: #C8CDD0;
+}
+
+.input-combined2{
+    color: #C8CDD0;
+}
+.input-combined3 {
+
+    color: #C8CDD0;
+
+}
+.input-combined4 {
+
+    color: #C8CDD0;
+
+}
+.input-combined5 {
+
+    color: #C8CDD0;
+
+}
+
+.personalizacao {
+
+    margin-top: 5rem;
+    display: flex;
+    align-items: center; /* Alinha o ícone e o texto verticalmente */
+    gap: 8px; /* Ajuste a distância entre o ícone e o texto */
+    font-size: 1rem;
+    font-family: "Baloo 2";
+    
+}
+
+.icone {
+    width: 16px; /* Ajuste o tamanho do ícone conforme necessário */
+    height: 16px;
+}
+
