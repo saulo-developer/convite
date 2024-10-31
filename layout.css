@@ -3,6 +3,12 @@ html, body {
     overflow: hidden; /* Esconde todas as barras de rolagem */
 }
 
+
+
+
+
+
+
 .app {
 
     display: grid;
@@ -36,7 +42,7 @@ html, body {
 font-family: 'Leckerli One';
 font-size: 40px;
 margin-left: 177px;
-margin-bottom: ;
+
 
 
 
@@ -60,7 +66,7 @@ color: #FF598B;
    }
 }
 
-    
+}
 
 
 

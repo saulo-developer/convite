@@ -5,7 +5,13 @@
     border: 5px solid #2c2c2c; /* Borda escura */
     border-radius: 50%;        /* Faz o botão ficar redondo */
     cursor: pointer;         /* Mostra o cursor de "mãozinha" ao passar o mouse */
-    outline: none;     }
+    outline: none;   
+    
+    &:hover {
+     border: 5px solid #13bcf0;
+    }
+
+}
 
 
     .circle-button2 {
@@ -17,6 +23,10 @@
         border-radius: 50%;        /* Faz o botão ficar redondo */
         cursor: pointer;         /* Mostra o cursor de "mãozinha" ao passar o mouse */
         outline: none;   
+        
+        &:hover {
+            border: 5px solid #13bcf0;
+           }
     }
 
 
@@ -29,6 +39,9 @@
         border-radius: 50%;        /* Faz o botão ficar redondo */
         cursor: pointer;         /* Mostra o cursor de "mãozinha" ao passar o mouse */
         outline: none;   
+        &:hover {
+            border: 5px solid #13bcf0;
+        }
     }
 
 
@@ -40,6 +53,10 @@
         border-radius: 50%;        /* Faz o botão ficar redondo */
         cursor: pointer;         /* Mostra o cursor de "mãozinha" ao passar o mouse */
         outline: none;   
+
+        &:hover {
+            border: 5px solid #13bcf0;
+           }
     }
 
 
@@ -52,6 +69,10 @@
         border-radius: 50%;        /* Faz o botão ficar redondo */
         cursor: pointer;         /* Mostra o cursor de "mãozinha" ao passar o mouse */
         outline: none;   
+
+        &:hover {
+            border: 5px solid #13bcf0;
+           }
     }
 
 
@@ -64,4 +85,7 @@
         border-radius: 50%;        /* Faz o botão ficar redondo */
         cursor: pointer;         /* Mostra o cursor de "mãozinha" ao passar o mouse */
         outline: none;   
+        &:hover {
+            border: 5px solid #13bcf0;
+           }
     }
