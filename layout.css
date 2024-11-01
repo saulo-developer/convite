@@ -1,25 +1,18 @@
-
+/* Estilos gerais */
 html, body {
     overflow: hidden; /* Esconde todas as barras de rolagem */
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #141313;
+    font-family: Arial, sans-serif;
 }
 
-
-
-
-
-
-
 .app {
-
     display: grid;
     grid-template-columns: 51.25% 48.75%;
     height: 100vh;
-    margin: 0;
-    padding: 0;
-   margin-top: 5rem;
- 
-
-
+    margin-top: 5rem;
 }
 
 .aside-container {
@@ -27,152 +20,78 @@ html, body {
     background-size: contain;
     height: 97vh;
     background-repeat: no-repeat;
-    background-position: top center; /* Move a imagem para o topo e centraliza horizontalmente */
+    background-position: top center;
     margin-left: 57px;
     border-color: #080808;
+}
 
-
-
-    & h1 {
-
-       /* Festivite */
-
-
-
-font-family: 'Leckerli One';
-font-size: 40px;
-margin-left: 177px;
-
-
-
-
-
-color: #FF598B;
-
-    }
-   & img {
-    margin-bottom: -5px;
+.aside-container h1 {
+    font-family: 'Leckerli One';
+    font-size: 40px;
     margin-left: 177px;
-    margin-top: -2rem;
-    
-    
-   }
+    color: #FF598B;
+}
 
-   & h2 {
+.aside-container img {
+    margin: -2rem 0 -5px 177px;
+}
+
+.aside-container h2 {
     margin-left: 177px;
-    padding-bottom: -19rem;
     font-size: 17px;
     color: #C8CDD0;
-   }
 }
-
-}
-
-
 
 .main {
     overflow-y: auto;
     padding: 4rem;
-    
-    
+}
 
-    & h1 {
-
-       /* Crie seu convite */
-
-       
-       
-margin-top: 4rem;
-font-family: "Baloo 2";
-font-size: 40px;
-
-
-    }
-  
+.main h1 {
+    margin-top: 4rem;
+    font-family: "Baloo 2";
+    font-size: 40px;
 }
 
 .main-two {
-
     font-family: "Baloo 2";
-font-size: 17px;
-font-weight: bolder;
-
+    font-size: 17px;
+    font-weight: bolder;
 }
-
-
 
 span > img {
     float: left;
     margin-right: 1rem;
-
-
-  
 }
 
- .name { 
-       /* Label */
+.name {
+    width: 37px;
+    height: 19px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #C8CDD0;
+}
 
-width: 37px;
-height: 19px;
-
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-/* identical to box height */
-
-color: #C8CDD0;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-    
-
-    }
-
-    .name-input  {
-   /* Text */
-
-box-sizing: border-box;
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px 16px;
-gap: 8px;
-
-width: 320px;
-height: 48px;
-
-background: #1C1F21;
-border: 1px solid #363B40;
-border-radius: 8px;
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
-
-    }
-
-body {
-    background-color: #1e1e1e;
-    color: #141313;
-    font-family: Arial, sans-serif;
-    
+.name-input {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    gap: 8px;
+    width: 320px;
+    height: 48px;
+    background: #1C1F21;
+    border: 1px solid #363B40;
+    border-radius: 8px;
 }
 
 .date-time-container {
-    
+    display: flex;
     justify-content: space-between;
     padding: 20px;
 }
-
 
 label {
     font-size: 14px;
@@ -192,131 +111,85 @@ input:focus {
     border-color: #1f1e1e;
 }
 
-
-
 .container {
-    display: flex; /* Utiliza flexbox para alinhar os itens */
-    align-items: center; /* Alinha verticalmente no centro */
-    
-    color: rgb(14, 13, 13); /* Cor do texto */
-    border: none; /* Remove bordas padrão */
-    border-radius: 5px; /* Arredonda os cantos do botão */
-    padding: 10px 15px; /* Espaçamento interno do botão */
-    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    display: flex;
+    align-items: center;
+    color: rgb(14, 13, 13);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
     gap: 10px;
-    
 }
 
-/* Estilos para o ícone */
 .icone {
-    width: 20px;  /* Largura do ícone */
-    height: 20px; /* Altura do ícone */
-    margin-right: 8px; /* Espaço entre o ícone e o texto */
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
 }
 
-/* Estilos para o texto */
-.texto {
-    font-size: 16px; /* Tamanho da fonte do texto */
+.texto, .type, .local, .description, .main-two, .main, .input-combined2, .input-combined3, .input-combined4, .input-combined5 {
     color: #C8CDD0;
 }
 
-.type{
-
-    color: #C8CDD0;
-}
-
-
-
-.botao{
+.botao {
     margin-left: -20px;
     width: 157px;
     height: 50px;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #202020;
+    color: rgb(253, 249, 249);
+    border: none;
+    padding: 10px 15px;
     cursor: pointer;
-    display: flex; /* Utiliza flexbox para alinhar os itens */
-    align-items: center; /* Alinha verticalmente no centro */
-    background-color: #202020; /* Cor de fundo do botão */
-    color: rgb(253, 249, 249); /* Cor do texto */
-    border: none; /* Remove bordas padrão */
-    border-radius: 5px; /* Arredonda os cantos do botão */
-    padding: 10px 15px; /* Espaçamento interno do botão */
-    cursor: pointer; /* Muda o cursor para indicar que é clicável */
     gap: 10px;
-    
-    
-
-    
 }
-
-
 
 .botao:hover {
-    background-color: #141414; /* Cor de fundo ao passar o mouse */
-}
-
-
-
-
-.local {
-
-
-    width: 300px;
-    height: 20px;
-    border-radius: 10px;
-    color: #C8CDD0;
-}
-
-.description {
-    width: 300px;
-    height: 200px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center; /* Centraliza verticalmente o ícone e o texto */
-    justify-content: center; /* Centraliza horizontalmente o conteúdo */
-    padding: 20px 20px;
-    
-}
-
-.main-two {
-    color: #C8CDD0;
-}
-
-.main {
-    color: #C8CDD0;
-}
-
-.input-combined2{
-    color: #C8CDD0;
-}
-.input-combined3 {
-
-    color: #C8CDD0;
-
-}
-.input-combined4 {
-
-    color: #C8CDD0;
-
-}
-.input-combined5 {
-
-    color: #C8CDD0;
-
+    background-color: #141414;
 }
 
 .personalizacao {
-
     margin-top: 5rem;
     display: flex;
-    align-items: center; /* Alinha o ícone e o texto verticalmente */
-    gap: 8px; /* Ajuste a distância entre o ícone e o texto */
+    align-items: center;
+    gap: 8px;
     font-size: 1rem;
     font-family: "Baloo 2";
-    
 }
 
 .icone {
-    width: 16px; /* Ajuste o tamanho do ícone conforme necessário */
+    width: 16px;
     height: 16px;
 }
 
+/* Media Queries para responsividade */
+@media screen and (max-width: 1000px) {
+    .app {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .aside-container {
+        margin-left: 0;
+        height: auto;
+    }
+
+    .aside-container h1, .aside-container img, .aside-container h2 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .main {
+        padding: 2rem;
+    }
+
+    .main h1 {
+        font-size: 30px;
+    }
+
+    .name-input {
+        width: 100%;
+    }
+}
