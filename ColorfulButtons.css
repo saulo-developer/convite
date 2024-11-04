@@ -89,3 +89,47 @@
             border: 5px solid #13bcf0;
            }
     }
+
+    .circle-button7 {
+
+        width: 40px;               /* Define o tamanho do botão */
+        height: 40px;              /* Define o tamanho do botão */
+        background-color: #65e34c; /* Cor de preenchimento azul */
+        border: 5px solid #2c2c2c; /* Borda escura */
+        border-radius: 50%;        /* Faz o botão ficar redondo */
+        cursor: pointer;         /* Mostra o cursor de "mãozinha" ao passar o mouse */
+        outline: none;   
+        &:hover {
+            border: 5px solid #13bcf0;
+           }
+    }
+
+    .circle-button8 {
+
+        width: 40px;               /* Define o tamanho do botão */
+        height: 40px;              /* Define o tamanho do botão */
+        background-color: #e3bb4c; /* Cor de preenchimento azul */
+        border: 5px solid #2c2c2c; /* Borda escura */
+        border-radius: 50%;        /* Faz o botão ficar redondo */
+        cursor: pointer;         /* Mostra o cursor de "mãozinha" ao passar o mouse */
+        outline: none;   
+        &:hover {
+            border: 5px solid #13bcf0;
+           }
+    }
+
+    .circle-button9 {
+
+        width: 40px;               /* Define o tamanho do botão */
+        height: 40px;              /* Define o tamanho do botão */
+        background-color: #e39d4c; /* Cor de preenchimento azul */
+        border: 5px solid #2c2c2c; /* Borda escura */
+        border-radius: 50%;        /* Faz o botão ficar redondo */
+        cursor: pointer;         /* Mostra o cursor de "mãozinha" ao passar o mouse */
+        outline: none;   
+        &:hover {
+            border: 5px solid #13bcf0;
+           }
+    }
+
+    

@@ -19,6 +19,7 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 14rem;
 }
 
 .aside-container {
@@ -73,7 +74,7 @@ span > img {
 .name {
     width: 37px;
     height: 19px;
-    font-family: 'Open Sans';
+    font-family: 'Leckerli One ';
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
@@ -112,11 +113,11 @@ input {
     font-size: 16px;
 }
 
-input:focus {
+/* input:focus {
     outline: none;
     border-color: #1f1e1e;
-}
-
+} */
+ 
 .container {
     display: flex;
     align-items: center;
@@ -162,14 +163,41 @@ input:focus {
     display: flex;
     align-items: center;
     gap: 8px;
-    font-size: 1rem;
+    font-size: 2rem;
     font-family: "Baloo 2";
+}
+
+.buttons-and-title {
+
+    & h2 {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 1rem;
+        font-family: "Baloo 2";
+    }
 }
 
 .icone {
     width: 16px;
     height: 16px;
 }
+
+.description {
+    width: 23rem;
+    height: 10rem;
+
+}
+
+
+.description[src="input"] {
+
+
+    background-color: #ece8e8;
+    color: #080808;
+    }
+
+
 
 /* Media Queries para responsividade */
 @media screen and (max-width: 1000px) {
@@ -199,3 +227,4 @@ input:focus {
         width: 100%;
     }
 }
+
