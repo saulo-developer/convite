@@ -196,30 +196,16 @@ input {
     background-color: #ece8e8;
     color: #080808;
     }
-
-
-    .theme-selection{
-      
-        
-
-       & .btn {
-        background-color: transparent;
+    .theme-selection .btn {
         all: unset;
-        cursor: pointer;
-        
-       
-        
-       }
-
-     & .btn:hover {
-        border: 2px solid #13bcf0;
+        border: 2px solid transparent;  /* Define a borda inicial transparente */
         border-radius: 9%;
-       
-        
-     
-     }
+        cursor: pointer;
+    } 
+    
+    .theme-selection .btn:hover {
+        border-color: #13bcf0;
     }
-
 
 /* Media Queries para responsividade */
 @media screen and (max-width: 1000px) {
