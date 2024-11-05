@@ -198,6 +198,28 @@ input {
     }
 
 
+    .theme-selection{
+      
+        
+
+       & .btn {
+        background-color: transparent;
+        all: unset;
+        cursor: pointer;
+        
+       
+        
+       }
+
+     & .btn:hover {
+        border: 2px solid #13bcf0;
+        border-radius: 9%;
+       
+        
+     
+     }
+    }
+
 
 /* Media Queries para responsividade */
 @media screen and (max-width: 1000px) {
