@@ -209,12 +209,45 @@ input {
 
 }
 
-.description[src="input"] {
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+label {
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+.description {
+    width: 70%;
+    min-height: 100px;
+    padding: 12px;
+    background-color: #1c1c1c;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    color: #ffffff;
+    font-family: sans-serif;
+    resize: vertical;
+}
+
+.description-input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.description-input:focus {
+    outline: none;
+    border-color: #4a4a4a;
+}
 
 
-    background-color: #ece8e8;
-    color: #080808;
-    }
+
+
+
+
+
+    
     .theme-selection .btn {
         all: unset;
         border: 2px solid transparent;  /* Define a borda inicial transparente */
