@@ -201,6 +201,7 @@ display: inline;
     
     flex-direction: column;
     gap: 12px;
+    
 }
 
 label {
@@ -208,6 +209,14 @@ label {
     font-family: sans-serif;
 }
 
+
+ .tipo1{
+
+    margin-right: 4000px;
+    color: #ffffff;
+    font-size: 15px;
+    
+}
 .opcoes-grupo {
     
     display: flex;
@@ -230,6 +239,7 @@ label {
     border-radius: 4px;
     color: #ffffff;
     cursor: pointer;
+  
 }
 
 .input-endereco {
@@ -260,10 +270,8 @@ label {
 }
 
 
-.type {
 
-    margin-bottom: -30px;
-}
+
 .icone {
     width: 16px;
     height: 15px;
@@ -278,6 +286,7 @@ label {
 
 .local {
     width: 10rem;
+    margin-bottom: 1rem;
 
 
 }
@@ -316,6 +325,9 @@ label {
     border-color: #4a4a4a;
 }
 
+.description1 {
+    margin-bottom: 1rem;
+}
 
 
 
