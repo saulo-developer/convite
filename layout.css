@@ -436,21 +436,31 @@ input:checked + .slider:before {
 
 
 .escuro1 {
-    display: flex;
-    margin-top: 1px;
+ 
+    margin-top: 6px;
     margin-left: 30px;
+    
+    
     
     
 
 }
 
 .escuro2 {
-    margin-top: 1px;
-    margin-left: 4rem;
+    
+    margin-left: 6rem;
+   
+   
+ 
+   
+  
+   
     
 
     
 }
+
+
 
 .file-upload-container {
     display: flex;
