@@ -440,13 +440,16 @@ input:checked + .slider:before {
     margin-top: 1px;
     margin-left: 30px;
     
+    
 
 }
 
 .escuro2 {
     margin-top: 1px;
     margin-left: 4rem;
-    border-top: -50px;
+    
+
+    
 }
 
 .file-upload-container {
@@ -457,9 +460,13 @@ input:checked + .slider:before {
     margin-left: 10rem;
     margin-top: -43px;
    
-   
     
   }
+
+
+  
+  
+ 
   
   .file-upload-button {
     background-color: #37393a;
@@ -469,9 +476,16 @@ input:checked + .slider:before {
     border-radius: 0.5rem;
     cursor: pointer;
     height: 3rem;
-    width: 7rem;    
-    
+    width: 7rem;   
+   
   }
+
+
+  .file-upload-button:hover {
+    background-color: #13bcf0;
+
+}
+  
   
   .file-name {
     color: #c9c9c9;
