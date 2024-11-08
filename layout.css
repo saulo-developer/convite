@@ -364,6 +364,128 @@ label {
         border-color: #13bcf0;
     }
 
+    .switch {
+       
+  position: relative;
+  display: inline-block;
+  width: 5rem;
+  
+  
+}
+
+.switch input {
+    
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+.switch-container > h1{
+
+    font-size: 19px;
+}
+
+
+
+.escuro1 {
+    display: flex;
+    margin-top: 1px;
+    margin-left: 30px;
+    
+
+}
+
+.escuro2 {
+    margin-top: 1px;
+    margin-left: 4rem;
+    border-top: -50px;
+}
+
+.file-upload-container {
+    display: flex;
+    align-items: center;
+    grid-column: 50% ;
+    background-color: #1e1e1e;
+    margin-left: 10rem;
+    margin-top: -43px;
+   
+   
+    
+  }
+  
+  .file-upload-button {
+    background-color: #37393a;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    height: 3rem;
+    width: 7rem;    
+    
+  }
+  
+  .file-name {
+    color: #c9c9c9;
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 1rem;
+  }
+  
+  .file-input {
+    display: none;
+  }
+
 /* Media Queries para responsividade */
 @media screen and (min-width: 10px) and (max-width: 600px) {
     .app {
