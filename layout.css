@@ -451,10 +451,10 @@ input:checked + .slider:before {
 .escuro2 {
   /* margin-top: -500000px;
     margin-left: 63px; */ 
-    display: flex;
-    align-items: center;
+    
     gap: 8px; /* espaçamento entre o switch e o texto */
-    margin-left: 90px;
+    margin-left: 60px;
+  
    
  
    
