@@ -515,6 +515,21 @@ input:checked + .slider:before {
     display: none;
   }
 
+
+  .name-input2 {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    gap: 8px;
+ 
+    width: 99%;
+    height: 48px;
+    background: #1C1F21;
+    border: 1px solid #363B40;
+    border-radius: 8px;
+    color: aliceblue;
+  }
 /* Media Queries para responsividade */
 @media screen and (min-width: 10px) and (max-width: 600px) {
     .app {
