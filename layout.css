@@ -369,6 +369,8 @@ label {
   position: relative;
   display: inline-block;
   width: 5rem;
+
+   
   
   
 }
@@ -447,9 +449,12 @@ input:checked + .slider:before {
 }
 
 .escuro2 {
-    
-    margin-left: 6rem;
-   
+  /* margin-top: -500000px;
+    margin-left: 63px; */ 
+    display: flex;
+    align-items: center;
+    gap: 8px; /* espaçamento entre o switch e o texto */
+    margin-left: 90px;
    
  
    
@@ -468,7 +473,7 @@ input:checked + .slider:before {
     grid-column: 50% ;
     background-color: #1e1e1e;
     margin-left: 10rem;
-    margin-top: -43px;
+    margin-top: -50px;
    
     
   }
