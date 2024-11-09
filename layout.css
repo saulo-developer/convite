@@ -276,10 +276,27 @@ label {
     height: 33px;
 }
 
+.input-endereco3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* divide em duas colunas iguais */
+    margin-top: -10px;
+    
+    
+}
+
+.input-endereco4 {
+
+    margin-left: -13px
+}
+
 .input-endereco input::placeholder {
     color: rgba(255, 255, 255, 0.5);
     
 }
+
+/*.email {
+    margin-bottom: 4rem;
+} */
 
 /* Estilo para opção selecionada */
 .opcao:hover {
