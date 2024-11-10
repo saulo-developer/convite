@@ -366,10 +366,20 @@ label {
 
 
 
+.theme-selection {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas de largura igual */
+    gap: 10px; /* Espaço entre os botões */
+}
 
 
 
-    
+.btn img {
+    width: 100%; /* Imagens se ajustam ao tamanho do botão */
+    height: auto;
+    display: block;
+}
+
     .theme-selection .btn {
         all: unset;
         border: 2px solid transparent;  /* Define a borda inicial transparente */
@@ -546,7 +556,60 @@ input:checked + .slider:before {
     border: 1px solid #363B40;
     border-radius: 8px;
     color: aliceblue;
+
   }
+
+  
+  .divider {
+    border: none;
+    height: 1px;
+    background-color: #333333;
+    margin: 20px 0;
+}
+
+.checkbox-container {
+    background-color: #1a1a1a;
+    padding: 20px;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.checkbox-label input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    accent-color: #0066cc;
+}
+
+.link {
+    color: #3399ff;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.checkbox-label span {
+    color: #cccccc;
+    font-size: 14px;
+}
+  
+/*div > .foto-de-capa {
+
+    margin-bottom: 
+
+}*/
+
+
 /* Media Queries para responsividade */
 @media screen and (min-width: 10px) and (max-width: 600px) {
     .app {
