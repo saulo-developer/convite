@@ -191,15 +191,19 @@ input {
 
 .buttons-and-title {
 
-    & h2 {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        font-size: 1rem;
-        font-family: "Baloo 2";
-    }
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); /* 4 colunas de largura igual */
+   
 }
 
+
+h2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1rem;
+    font-family: "Baloo 2";
+}
 .container {
 
 display: inline;
@@ -499,8 +503,9 @@ input:checked + .slider:before {
     align-items: center;
     grid-column: 50% ;
     background-color: #1e1e1e;
-    margin-left: 10rem;
-    margin-top: -50px;
+   
+    margin-top: -44px;
+    margin-left: 100px;
    
     
   }
@@ -603,11 +608,12 @@ input:checked + .slider:before {
     font-size: 14px;
 }
   
-/*div > .foto-de-capa {
+.foto-de-capa {
 
-    margin-bottom: 
+    margin-top: -120px;
 
-}*/
+    
+}
 
 
 /* Media Queries para responsividade */
