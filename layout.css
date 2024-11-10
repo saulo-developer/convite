@@ -284,13 +284,13 @@ label {
     display: grid;
     grid-template-columns: 1fr 1fr; /* divide em duas colunas iguais */
     margin-top: -10px;
-    
+   
     
 }
 
 .input-endereco4 {
 
-    margin-left: -13px
+    margin-left: 1rem;
 }
 
 .input-endereco input::placeholder {
@@ -614,6 +614,13 @@ input:checked + .slider:before {
 
     
 }
+
+.telefone {
+    margin-right: -1000px;
+}
+
+
+
 
 
 /* Media Queries para responsividade */
