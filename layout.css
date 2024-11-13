@@ -656,7 +656,22 @@ input:checked + .slider:before {
 
 
 
+.gerar {
 
+    height: 50px;
+    font-size: 14px;
+    padding: 8px 16px;
+    background-color: #3399ff;
+     
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 50px;
+    margin-left: 450px;
+
+}
 
 /* Media Queries para responsividade */
 @media screen and (min-width: 10px) and (max-width: 600px) {
